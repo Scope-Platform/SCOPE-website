@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meet the Team - SCOPE</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #F8F8F8;
+    }
+
+    .header {
+      background: #0A1C3C;
+      color: white;
+      padding: 1rem 0;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      margin-left: 2rem;
+      transition: opacity 0.3s;
+    }
+
+    .nav-links a:hover {
+      opacity: 0.8;
+    }
+
+    .hero {
+      background: #F8F8F8;
+      color: #0A1C3C;
+      padding: 8rem 2rem 4rem;
+      text-align: center;
+      margin-top: 60px;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      line-height: 1.2;
+      font-weight: bold;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: #333;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .team-card {
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .team-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .team-card:nth-child(1) {
+      border-left: 4px solid #4A7D9E;
+    }
+
+    .team-card:nth-child(2) {
+      border-left: 4px solid #36849C;
+    }
+
+    .team-card:nth-child(3) {
+      border-left: 4px solid #10B981;
+    }
+
+    .team-card h3 {
+      color: #0A1C3C;
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+
+    .team-card .title {
+      color: #4A7D9E;
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .team-card p {
+      color: #333;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+
+    .linkedin-link {
+      display: inline-flex;
+      align-items: center;
+      color: #4A7D9E;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    .linkedin-link:hover {
+      color: #36849C;
+    }
+
+    .linkedin-icon {
+      width: 20px;
+      height: 20px;
+      margin-right: 0.5rem;
+    }
+
+    .footer {
+      background: #0A1C3C;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+      }
+
+      .team-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+<header class="header">
+  <div class="nav-container">
+    <a href="index.html" class="logo">SCOPE</a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="team.html">Team</a>
+      <a href="index.html#signup">Get Started</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Meet the Team</h1>
+  <p>Built by actuaries and engineers with deep expertise in insurance analytics and enterprise software</p>
+</section>
+
+<section class="section">
+  <div class="team-grid">
+    <div class="team-card">
+      <h3>Roy Machamire</h3>
+      <div class="title">FSA, Actuarial Lead</div>
+      <p>Roy brings extensive expertise in actuarial services and the medical insurance industry. As a Fellow of the Society of Actuaries, he specializes in IBNR reserving, claims analytics, and risk management for health insurers and TPAs.</p>
+      <a href="https://www.linkedin.com/in/roy-machamire-fsa/" target="_blank" class="linkedin-link">
+        <svg class="linkedin-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+        LinkedIn Profile
+      </a>
+    </div>
+
+    <div class="team-card">
+      <h3>Tye Rubin</h3>
+      <div class="title">Medical Economics Analyst</div>
+      <p>Tye specializes in medical insurance data analysis and medical economics. His experience working with complex healthcare datasets and understanding the nuances of medical claim patterns provides critical insights for accurate IBNR modeling and trend analysis.</p>
+      <a href="https://www.linkedin.com/in/tye-rubin-4725a01aa/" target="_blank" class="linkedin-link">
+        <svg class="linkedin-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+        LinkedIn Profile
+      </a>
+    </div>
+
+    <div class="team-card">
+      <h3>Adam McAvoy</h3>
+      <div class="title">Software Engineer</div>
+      <p>Adam specializes in building enterprise-level platforms and creating reliable, scalable code that industry-leading companies depend on for critical business functions. His expertise ensures SCOPE delivers the performance and reliability actuaries require.</p>
+      <a href="https://www.linkedin.com/in/adam-mcavoy-965018152/" target="_blank" class="linkedin-link">
+        <svg class="linkedin-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+        LinkedIn Profile
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; 2025 SCOPE - Scenario-based Claims Outlook & Projection Engine</p>
+</footer>
+</body>
+</html>
