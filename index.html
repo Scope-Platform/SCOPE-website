@@ -215,17 +215,25 @@
     }
 
     .form-group input,
-    .form-group select {
+    .form-group select,
+    .form-group textarea {
       width: 100%;
       padding: 0.8rem;
       border: 2px solid #e0e0e0;
       border-radius: 5px;
       font-size: 1rem;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       transition: border-color 0.3s;
     }
 
+    .form-group textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
     .form-group input:focus,
-    .form-group select:focus {
+    .form-group select:focus,
+    .form-group textarea:focus {
       outline: none;
       border-color: #4A7D9E;
     }
@@ -364,6 +372,10 @@
             <option value="other">Other</option>
           </select>
         </div>
+        <div class="form-group">
+          <label for="reason">Why do you need early access? *</label>
+          <textarea id="reason" name="reason" placeholder="Tell us about your use case and what you hope to achieve with SCOPE..." required></textarea>
+        </div>
         <button type="submit" class="submit-button">Request Early Access</button>
       </form>
     </div>
@@ -398,7 +410,8 @@
       name: document.getElementById('name').value,
       email: document.getElementById('email').value,
       company: document.getElementById('company').value,
-      role: document.getElementById('role').value
+      role: document.getElementById('role').value,
+      reason: document.getElementById('reason').value
     };
 
     try {
