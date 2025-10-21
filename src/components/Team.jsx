@@ -118,7 +118,17 @@ export default function Team() {
             See how SCOPE can streamline your monthly close and improve reserve accuracy.
           </p>
           <a
-            href="/#demo"
+            href="#/"
+            onClick={(e) => {
+              e.preventDefault()
+              window.location.hash = '#/'
+              setTimeout(() => {
+                const element = document.getElementById('demo')
+                if (element) {
+                  element.scrollIntoView({ behavior: 'smooth', block: 'start' })
+                }
+              }, 100)
+            }}
             className="inline-flex items-center gap-3 bg-teal-600 hover:bg-teal-500 text-white px-10 py-5 rounded-full transition-all duration-500 text-lg font-light"
           >
             Schedule a Demo

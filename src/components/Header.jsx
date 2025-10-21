@@ -25,7 +25,8 @@ export default function Header() {
     if (location.pathname === '/') {
       scrollToSection('demo')
     } else {
-      window.location.href = '/#demo'
+      window.location.hash = '#/'
+      setTimeout(() => scrollToSection('demo'), 100)
     }
   }
 

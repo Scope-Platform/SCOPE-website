@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './pages/Home'
@@ -6,7 +6,7 @@ import Team from './components/Team'
 
 function App() {
   return (
-    <Router basename="/SCOPE-website">
+    <Router>
       <div className="min-h-screen bg-white">
         <Header />
         <Routes>
