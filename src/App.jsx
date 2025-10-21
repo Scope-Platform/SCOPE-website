@@ -6,7 +6,7 @@ import Team from './components/Team'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/SCOPE-website">
       <div className="min-h-screen bg-white">
         <Header />
         <Routes>
