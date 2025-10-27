@@ -10,7 +10,7 @@ export default function WhySection() {
             <div className="h-px flex-1 bg-gradient-to-r from-transparent via-slate-300 to-transparent"></div>
           </div>
 
-          <h2 className="text-6xl md:text-7xl font-light tracking-tight text-slate-900 text-center mb-6">
+          <h2 className="text-3xl md:text-4xl font-light tracking-tight text-slate-900 text-center mb-6">
             Why SCOPE IBNR<br />Is Different
           </h2>
         </div>
@@ -21,14 +21,14 @@ export default function WhySection() {
           <div className="grid md:grid-cols-12 gap-12 items-center">
             <div className="md:col-span-4">
               <div className="relative inline-block mb-6">
-                <span className="text-8xl font-extralight text-teal-600/10 absolute -top-8 -left-4">01</span>
-                <h3 className="text-4xl font-light text-slate-900 relative z-10">
+                <span className="text-4xl font-extralight text-teal-600/10 absolute -top-8 -left-4">01</span>
+                <h3 className="text-2xl font-light text-slate-900 relative z-10">
                   Multi-Method<br />Engine
                 </h3>
               </div>
             </div>
             <div className="md:col-span-8">
-              <p className="text-2xl font-light text-slate-600 leading-relaxed mb-6">
+              <p className="text-xl font-light text-slate-600 leading-relaxed mb-6">
                 Blend lag and projection intelligently with real-time calibration. Switch between methods seamlessly,
                 compare side-by-side, and let the engine recommend optimal approaches.
               </p>
@@ -46,7 +46,7 @@ export default function WhySection() {
           {/* Benefit 2 */}
           <div className="grid md:grid-cols-12 gap-12 items-center">
             <div className="md:col-span-8 order-2 md:order-1">
-              <p className="text-2xl font-light text-slate-600 leading-relaxed mb-6">
+              <p className="text-xl font-light text-slate-600 leading-relaxed mb-6">
                 Detect lag-0 volatility and cutoff anomalies with precision. Automated alerts flag reporting delays,
                 completeness issues, and pattern breaks before they impact your reserve.
               </p>
@@ -67,8 +67,8 @@ export default function WhySection() {
             </div>
             <div className="md:col-span-4 order-1 md:order-2 md:text-right">
               <div className="relative inline-block mb-6">
-                <span className="text-8xl font-extralight text-teal-600/10 absolute -top-8 md:-right-4 -left-4 md:left-auto">02</span>
-                <h3 className="text-4xl font-light text-slate-900 relative z-10">
+                <span className="text-4xl font-extralight text-teal-600/10 absolute -top-8 md:-right-4 -left-4 md:left-auto">02</span>
+                <h3 className="text-2xl font-light text-slate-900 relative z-10">
                   Lag<br />Discipline
                 </h3>
               </div>
@@ -82,14 +82,14 @@ export default function WhySection() {
           <div className="grid md:grid-cols-12 gap-12 items-center">
             <div className="md:col-span-4">
               <div className="relative inline-block mb-6">
-                <span className="text-8xl font-extralight text-teal-600/10 absolute -top-8 -left-4">03</span>
-                <h3 className="text-4xl font-light text-slate-900 relative z-10">
+                <span className="text-4xl font-extralight text-teal-600/10 absolute -top-8 -left-4">03</span>
+                <h3 className="text-2xl font-light text-slate-900 relative z-10">
                   Scenario<br />Studio
                 </h3>
               </div>
             </div>
             <div className="md:col-span-8">
-              <p className="text-2xl font-light text-slate-600 leading-relaxed mb-8">
+              <p className="text-xl font-light text-slate-600 leading-relaxed mb-8">
                 Model stress tests, sensitivity, and PAD in one click. Create unlimited scenarios,
                 compare outcomes side-by-side, understand the full range of reserve uncertainty.
               </p>

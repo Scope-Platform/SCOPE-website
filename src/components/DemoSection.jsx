@@ -47,10 +47,10 @@ export default function DemoSection() {
       <div className="max-w-5xl mx-auto">
         {/* Section Header */}
         <div className="mb-20 text-center">
-          <h2 className="text-6xl md:text-7xl font-light tracking-tight text-slate-900 mb-6">
+          <h2 className="text-3xl md:text-4xl font-light tracking-tight text-slate-900 mb-6">
             Schedule a Demo
           </h2>
-          <p className="text-xl text-slate-600 font-light leading-relaxed max-w-2xl mx-auto">
+          <p className="text-lg text-slate-600 font-light leading-relaxed max-w-2xl mx-auto">
             Tell us about your team and monthly close needs. We'll tailor a walkthrough
             to your data and governance framework.
           </p>

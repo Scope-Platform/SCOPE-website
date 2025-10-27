@@ -24,7 +24,7 @@ export default function HowSection() {
             <div className="h-px flex-1 bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
           </div>
 
-          <h2 className="text-6xl md:text-7xl font-light tracking-tight text-white text-center">
+          <h2 className="text-3xl md:text-4xl font-light tracking-tight text-white text-center">
             A Minimal Flow with<br />Powerful Guardrails
           </h2>
         </div>
