@@ -58,13 +58,12 @@ export default function Header() {
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center gap-8">
-            {/* Team link temporarily hidden - can be re-enabled later */}
-            {/* <Link
+            <Link
               to="/team"
               className="text-sm font-medium text-slate-900 hover:text-teal-600 transition-colors duration-300"
             >
               Team
-            </Link> */}
+            </Link>
             <button
               onClick={handleDemoClick}
               className="text-sm font-medium text-slate-900 hover:text-teal-600 transition-colors duration-300"
