@@ -94,7 +94,7 @@ export default function Hero() {
         </div>
 
         {/* Hero Text */}
-        <h1 className="text-7xl md:text-8xl lg:text-9xl font-light tracking-tighter text-slate-900 mb-8 leading-[0.9]">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tighter text-slate-900 mb-8 leading-[0.9]">
           Smarter IBNR.
           <br />
           <span className="font-extralight text-slate-600">Minimal Interface.</span>
@@ -106,7 +106,7 @@ export default function Hero() {
           <span className="font-extralight text-slate-600">Outputs.</span>
         </h1>
 
-        <p className="text-xl md:text-2xl text-slate-500 max-w-3xl mx-auto mb-16 leading-relaxed font-light">
+        <p className="text-lg md:text-xl text-slate-500 max-w-3xl mx-auto mb-16 leading-relaxed font-light">
           A modern reserving engine for health plans. Blend methods, stress-test scenarios,
           export governance packs — all without the spreadsheet sprawl.
         </p>
