@@ -60,7 +60,7 @@ export default function Header() {
           <div className="hidden md:flex items-center gap-8">
             <Link
               to="/team"
-              className="text-sm font-medium text-slate-900 hover:text-teal-600 transition-colors duration-300"
+              className="hidden text-sm font-medium text-slate-900 hover:text-teal-600 transition-colors duration-300"
             >
               Team
             </Link>
